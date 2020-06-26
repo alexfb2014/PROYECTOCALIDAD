@@ -1,0 +1,4 @@
+Tests.class
+Pages\HelperSleep.class
+Pages\PageLogin.class
+ProbarSelenium.class
