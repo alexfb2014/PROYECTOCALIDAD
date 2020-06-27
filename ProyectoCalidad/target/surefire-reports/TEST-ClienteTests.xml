@@ -1,70 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="ClienteTests" time="241.342" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="ClienteTests" time="172.393" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="13.0.1+9"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Karoline\PROYECTOCALIDAD\ProyectoCalidad"/>
-    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
-    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\ProyectoGithub\Nueva carpeta\PROYECTOCALIDAD\ProyectoCalidad"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="PE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
     <property name="test" value="ClienteTests"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Karoline\PROYECTOCALIDAD\ProyectoCalidad"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.dir" value="D:\ProyectoGithub\Nueva carpeta\PROYECTOCALIDAD\ProyectoCalidad"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\KAROLINE\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\P002813\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
-    <property name="classworlds.conf" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven\bin\m2.conf"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.6.1\bin;C:\Users\KAROLINE\AppData\Local\Microsoft\WindowsApps;;."/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="57.0"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-11.0.7\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Java\jdk1.8.0_231\;C:\Program Files\Java\jdk-11.0.7\;bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\P002813\AppData\Local\Microsoft\WindowsApps;C:\Users\P002813\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\KAROLINE"/>
-    <property name="user.timezone" value="America/Lima"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\P002813"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="13"/>
-    <property name="user.name" value="KAROLINE"/>
-    <property name="java.class.path" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="13"/>
+    <property name="user.name" value="P002813"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=ClienteTests -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
-    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot"/>
-    <property name="user.language" value="es"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=ClienteTests -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="13.0.1"/>
-    <property name="java.vendor" value="AdoptOpenJDK"/>
-    <property name="maven.home" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3\bin\.."/>
     <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2019-10-15"/>
-    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ClienteTests" name="test_04" time="28.401"/>
-  <testcase classname="ClienteTests" name="test_05" time="32.75"/>
-  <testcase classname="ClienteTests" name="test_06" time="30.714"/>
-  <testcase classname="ClienteTests" name="test_07" time="30.734"/>
-  <testcase classname="ClienteTests" name="test_08" time="30.453"/>
-  <testcase classname="ClienteTests" name="test_09" time="31.125"/>
-  <testcase classname="ClienteTests" name="test_10" time="30.376"/>
-  <testcase classname="ClienteTests" name="test_11" time="26.789"/>
+  <testcase classname="ClienteTests" name="test_12" time="28.043"/>
+  <testcase classname="ClienteTests" name="test_13" time="27.529"/>
+  <testcase classname="ClienteTests" name="test_14" time="27.537"/>
+  <testcase classname="ClienteTests" name="test_15" time="33.934"/>
+  <testcase classname="ClienteTests" name="test_16" time="27.523"/>
+  <testcase classname="ClienteTests" name="test_17" time="27.827"/>
 </testsuite>

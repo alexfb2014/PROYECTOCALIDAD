@@ -16,7 +16,7 @@ public class PageCliente {
     private final By btnEliminar;
     private final By btnGuardar;
     private final By btnCrear;
-
+    private By btnModificar;
     public PageCliente(WebDriver driver) {
         this.driver = driver;
         this.splee = new HelperSleep();
@@ -27,6 +27,7 @@ public class PageCliente {
         fecha = By.cssSelector("#createAt");
         btnGuardar = By.cssSelector("#btnguardar");
         btnEliminar = By.cssSelector("body > div > div > div.card-body > table > tbody > tr:nth-child(1) > td:nth-child(8) > a");
+        btnModificar = By.cssSelector("body > div > div > div.card-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a");
     }
 
     public void registrarCliente(String nom, String ape, String correo, String fec) {
@@ -53,4 +54,34 @@ public class PageCliente {
         alert.accept();
 
     }
+    public void modificarCliente(String nom, String ape, String correo, String fec){
+       // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+       
+        driver.findElement(btnModificar).click();
+        splee.SleepSeconds(3);
+        driver.findElement(nombre).clear();  
+        driver.findElement(apellido).clear();
+        driver.findElement(email).clear();
+        driver.findElement(fecha).clear();
+        driver.findElement(nombre).sendKeys(nom);  
+        driver.findElement(apellido).sendKeys(ape);
+        driver.findElement(email).sendKeys(correo);
+        driver.findElement(fecha).sendKeys(fec);
+        splee.SleepSeconds(3);
+        driver.findElement(btnGuardar).click();
+        
+    }
+      public void modificarClienteVacio(){
+  
+        driver.findElement(btnModificar).click(); 
+        splee.SleepSeconds(3);
+        driver.findElement(nombre).clear();  
+        driver.findElement(apellido).clear();
+        driver.findElement(email).clear();
+        driver.findElement(fecha).clear();
+        splee.SleepSeconds(4);
+        driver.findElement(btnGuardar).click();
+  
+    }
+    
 }
