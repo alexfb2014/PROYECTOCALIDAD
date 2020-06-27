@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="Tests" time="55.443" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="Tests" time="50.993" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13.0.1+9"/>
@@ -14,7 +14,6 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="PE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="Tests"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="D:\Karoline\PROYECTOCALIDAD\ProyectoCalidad"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -43,7 +42,7 @@
     <property name="java.class.path" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=Tests -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test"/>
     <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -59,7 +58,7 @@
     <property name="java.vendor.version" value="AdoptOpenJDK"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Tests" name="test_01" time="19.134"/>
-  <testcase classname="Tests" name="test_02" time="17.587"/>
-  <testcase classname="Tests" name="test_03" time="18.722"/>
+  <testcase classname="Tests" name="test_01" time="17.901"/>
+  <testcase classname="Tests" name="test_02" time="16.368"/>
+  <testcase classname="Tests" name="test_03" time="16.724"/>
 </testsuite>

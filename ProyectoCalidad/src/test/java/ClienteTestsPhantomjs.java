@@ -2,24 +2,25 @@
 import Helpers.HelperSleep;
 import Pages.PageCliente;
 import Pages.PageLogin;
+import java.io.File;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 
-public class ClienteTests {
+public class ClienteTestsPhantomjs {
 
     WebDriver driver;
     HelperSleep sleep;
 
     @Before
     public void testBefore() {
-        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        File file = new File("driver/phantomjs.exe");
+        System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
+        driver = new PhantomJSDriver();
         driver.navigate().to("http://localhost:8080/login");
         sleep = new HelperSleep();
         PageLogin login = new PageLogin(driver);
@@ -92,13 +93,6 @@ public class ClienteTests {
         Assert.assertTrue(driver.findElement(By.cssSelector("body > div > div > div.card-body > form > div:nth-child(5) > div > small")).getText().contains("El formato de la fecha es invalido, debe ser yyyy/MM/dd"));
     }
     
-    @Test
-    public void test_11() {
-        PageCliente cliente = new PageCliente(driver);
-        cliente.eliminarCliente();
-        sleep.SleepSeconds(5);
-        Assert.assertTrue(driver.findElement(By.cssSelector("body > header > div")).getText().contains("Cliente Eliminado con Exito"));
-   
-    }
+    
     
 }

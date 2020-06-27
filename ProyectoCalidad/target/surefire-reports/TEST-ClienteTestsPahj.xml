@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="ClienteTestsPahj" time="12.68" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Karoline\PROYECTOCALIDAD\ProyectoCalidad"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="ClienteTestsPahj#test_11"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Karoline\PROYECTOCALIDAD\ProyectoCalidad"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\KAROLINE\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.6.1\bin;C:\Users\KAROLINE\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\KAROLINE"/>
+    <property name="user.timezone" value="America/Lima"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="KAROLINE"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=ClienteTestsPahj#test_11 -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="ClienteTestsPahj" name="test_11" time="12.68">
+    <error message="Invalid Command Method - {&quot;headers&quot;:{&quot;Accept-Encoding&quot;:&quot;gzip,deflate&quot;,&quot;Cache-Control&quot;:&quot;no-cache&quot;,&quot;Connection&quot;:&quot;Keep-Alive&quot;,&quot;Host&quot;:&quot;localhost:47498&quot;,&quot;User-Agent&quot;:&quot;Apache-HttpClient/4.5.1 (Java/13.0.1)&quot;},&quot;httpVersion&quot;:&quot;1.1&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/alert_text&quot;,&quot;urlParsed&quot;:{&quot;anchor&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;file&quot;:&quot;alert_text&quot;,&quot;directory&quot;:&quot;/&quot;,&quot;path&quot;:&quot;/alert_text&quot;,&quot;relative&quot;:&quot;/alert_text&quot;,&quot;port&quot;:&quot;&quot;,&quot;host&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;,&quot;user&quot;:&quot;&quot;,&quot;userInfo&quot;:&quot;&quot;,&quot;authority&quot;:&quot;&quot;,&quot;protocol&quot;:&quot;&quot;,&quot;source&quot;:&quot;/alert_text&quot;,&quot;queryKey&quot;:{},&quot;chunks&quot;:[&quot;alert_text&quot;]},&quot;urlOriginal&quot;:&quot;/session/54ad2f20-b828-11ea-b68a-6b46a0664eb7/alert_text&quot;}
+Command duration or timeout: 5 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Karoline&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.phantomjs.PhantomJSDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=false, databaseEnabled=false, version=2.1.1, platform=XP, browserConnectionEnabled=false, proxy={proxyType=direct}, nativeEvents=true, acceptSslCerts=false, driverVersion=1.2.0, locationContextEnabled=false, webStorageEnabled=false, browserName=phantomjs, takesScreenshot=true, driverName=ghostdriver, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 54ad2f20-b828-11ea-b68a-6b46a0664eb7" type="org.openqa.selenium.UnsupportedCommandException">org.openqa.selenium.UnsupportedCommandException: Invalid Command Method - {&quot;headers&quot;:{&quot;Accept-Encoding&quot;:&quot;gzip,deflate&quot;,&quot;Cache-Control&quot;:&quot;no-cache&quot;,&quot;Connection&quot;:&quot;Keep-Alive&quot;,&quot;Host&quot;:&quot;localhost:47498&quot;,&quot;User-Agent&quot;:&quot;Apache-HttpClient/4.5.1 (Java/13.0.1)&quot;},&quot;httpVersion&quot;:&quot;1.1&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/alert_text&quot;,&quot;urlParsed&quot;:{&quot;anchor&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;file&quot;:&quot;alert_text&quot;,&quot;directory&quot;:&quot;/&quot;,&quot;path&quot;:&quot;/alert_text&quot;,&quot;relative&quot;:&quot;/alert_text&quot;,&quot;port&quot;:&quot;&quot;,&quot;host&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;,&quot;user&quot;:&quot;&quot;,&quot;userInfo&quot;:&quot;&quot;,&quot;authority&quot;:&quot;&quot;,&quot;protocol&quot;:&quot;&quot;,&quot;source&quot;:&quot;/alert_text&quot;,&quot;queryKey&quot;:{},&quot;chunks&quot;:[&quot;alert_text&quot;]},&quot;urlOriginal&quot;:&quot;/session/54ad2f20-b828-11ea-b68a-6b46a0664eb7/alert_text&quot;}
+Command duration or timeout: 5 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Karoline&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.phantomjs.PhantomJSDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=false, databaseEnabled=false, version=2.1.1, platform=XP, browserConnectionEnabled=false, proxy={proxyType=direct}, nativeEvents=true, acceptSslCerts=false, driverVersion=1.2.0, locationContextEnabled=false, webStorageEnabled=false, browserName=phantomjs, takesScreenshot=true, driverName=ghostdriver, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 54ad2f20-b828-11ea-b68a-6b46a0664eb7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1049)
+	at Pages.PageCliente.eliminarCliente(PageCliente.java:51)
+	at ClienteTestsPahj.test_11(ClienteTestsPahj.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:242)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:137)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-err>jun. 26, 2020 10:43:11 P. M. org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFORMACIÓN: executable: D:\Karoline\PROYECTOCALIDAD\ProyectoCalidad\driver\phantomjs.exe
+jun. 26, 2020 10:43:11 P. M. org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFORMACIÓN: port: 47498
+jun. 26, 2020 10:43:11 P. M. org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFORMACIÓN: arguments: [--webdriver=47498, --webdriver-logfile=D:\Karoline\PROYECTOCALIDAD\ProyectoCalidad\phantomjsdriver.log]
+jun. 26, 2020 10:43:11 P. M. org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFORMACIÓN: environment: {}
+[INFO  - 2020-06-27T03:43:14.173Z] GhostDriver - Main - running on port 47498
+[INFO  - 2020-06-27T03:43:14.711Z] Session [54ad2f20-b828-11ea-b68a-6b46a0664eb7] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1&quot;,&quot;webSecurityEnabled&quot;:true}
+[INFO  - 2020-06-27T03:43:14.711Z] Session [54ad2f20-b828-11ea-b68a-6b46a0664eb7] - page.customHeaders:  - {}
+[INFO  - 2020-06-27T03:43:14.711Z] Session [54ad2f20-b828-11ea-b68a-6b46a0664eb7] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;2.1.1&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.2.0&quot;,&quot;platform&quot;:&quot;windows-10-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
+[INFO  - 2020-06-27T03:43:14.712Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 54ad2f20-b828-11ea-b68a-6b46a0664eb7
+[ERROR - 2020-06-27T03:43:23.742Z] RouterReqHand - _handle.error - {&quot;name&quot;:&quot;Invalid Command Method&quot;,&quot;message&quot;:&quot;{\&quot;headers\&quot;:{\&quot;Accept-Encoding\&quot;:\&quot;gzip,deflate\&quot;,\&quot;Cache-Control\&quot;:\&quot;no-cache\&quot;,\&quot;Connection\&quot;:\&quot;Keep-Alive\&quot;,\&quot;Host\&quot;:\&quot;localhost:47498\&quot;,\&quot;User-Agent\&quot;:\&quot;Apache-HttpClient/4.5.1 (Java/13.0.1)\&quot;},\&quot;httpVersion\&quot;:\&quot;1.1\&quot;,\&quot;method\&quot;:\&quot;GET\&quot;,\&quot;url\&quot;:\&quot;/alert_text\&quot;,\&quot;urlParsed\&quot;:{\&quot;anchor\&quot;:\&quot;\&quot;,\&quot;query\&quot;:\&quot;\&quot;,\&quot;file\&quot;:\&quot;alert_text\&quot;,\&quot;directory\&quot;:\&quot;/\&quot;,\&quot;path\&quot;:\&quot;/alert_text\&quot;,\&quot;relative\&quot;:\&quot;/alert_text\&quot;,\&quot;port\&quot;:\&quot;\&quot;,\&quot;host\&quot;:\&quot;\&quot;,\&quot;password\&quot;:\&quot;\&quot;,\&quot;user\&quot;:\&quot;\&quot;,\&quot;userInfo\&quot;:\&quot;\&quot;,\&quot;authority\&quot;:\&quot;\&quot;,\&quot;protocol\&quot;:\&quot;\&quot;,\&quot;source\&quot;:\&quot;/alert_text\&quot;,\&quot;queryKey\&quot;:{},\&quot;chunks\&quot;:[\&quot;alert_text\&quot;]},\&quot;urlOriginal\&quot;:\&quot;/session/54ad2f20-b828-11ea-b68a-6b46a0664eb7/alert_text\&quot;}&quot;,&quot;line&quot;:202,&quot;sourceURL&quot;:&quot;phantomjs://code/session_request_handler.js&quot;,&quot;stack&quot;:&quot;_handle@phantomjs://code/session_request_handler.js:202:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46&quot;}
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2020-06-27T03:43:23.756Z] ShutdownReqHand - _handle - About to shutdown
+</system-err>
+  </testcase>
+</testsuite>
