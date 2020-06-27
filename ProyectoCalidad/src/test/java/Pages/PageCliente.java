@@ -17,6 +17,8 @@ public class PageCliente {
     private final By btnGuardar;
     private final By btnCrear;
     private By btnModificar;
+    private final By btnDetalle;
+    
     public PageCliente(WebDriver driver) {
         this.driver = driver;
         this.splee = new HelperSleep();
@@ -28,6 +30,7 @@ public class PageCliente {
         btnGuardar = By.cssSelector("#btnguardar");
         btnEliminar = By.cssSelector("body > div > div > div.card-body > table > tbody > tr:nth-child(1) > td:nth-child(8) > a");
         btnModificar = By.cssSelector("body > div > div > div.card-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a");
+        btnDetalle = By.cssSelector("body > div > div > div.card-body > table > tbody > tr:nth-child(5) > td:nth-child(1) > a");
     }
 
     public void registrarCliente(String nom, String ape, String correo, String fec) {
@@ -83,5 +86,9 @@ public class PageCliente {
         driver.findElement(btnGuardar).click();
   
     }
+      
+      public void mostrarCliente(){
+          driver.findElement(btnDetalle).click();
+      }
     
 }

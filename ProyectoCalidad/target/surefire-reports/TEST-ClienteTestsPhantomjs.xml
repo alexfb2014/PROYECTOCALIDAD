@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="ClienteTestsPhantomjs" time="283.147" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="ClienteTestsPhantomjs" time="336.325" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13.0.1+9"/>
@@ -59,17 +59,18 @@
     <property name="java.vendor.version" value="AdoptOpenJDK"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ClienteTestsPhantomjs" name="test_04" time="20.612"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_05" time="23.193"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_06" time="22.431"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_07" time="22.193"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_08" time="23.044"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_09" time="22.266"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_10" time="23.1"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_12" time="21.825"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_13" time="21.37"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_14" time="20.524"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_15" time="20.954"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_16" time="20.598"/>
-  <testcase classname="ClienteTestsPhantomjs" name="test_17" time="21.037"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_04" time="23.982"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_05" time="24.977"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_06" time="24.055"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_07" time="24.809"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_08" time="24.26"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_09" time="24.19"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_10" time="28.811"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_12" time="32.466"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_13" time="22.75"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_14" time="23.335"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_15" time="22.192"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_16" time="21.879"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_17" time="24.188"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_18" time="14.431"/>
 </testsuite>
