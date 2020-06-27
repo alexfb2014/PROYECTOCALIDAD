@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="ClienteTests" time="434.055" errors="0" skipped="0">
+<testsuite tests="13" failures="0" name="ClienteTestsPhantomjs" time="283.147" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13.0.1+9"/>
@@ -14,7 +14,7 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="PE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="ClienteTests"/>
+    <property name="test" value="ClienteTestsPhantomjs"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="D:\Karoline\PROYECTOCALIDAD\ProyectoCalidad"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=ClienteTests -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=ClienteTestsPhantomjs -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
     <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -59,18 +59,17 @@
     <property name="java.vendor.version" value="AdoptOpenJDK"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ClienteTests" name="test_04" time="31.153"/>
-  <testcase classname="ClienteTests" name="test_05" time="34.506"/>
-  <testcase classname="ClienteTests" name="test_06" time="35.046"/>
-  <testcase classname="ClienteTests" name="test_07" time="31.899"/>
-  <testcase classname="ClienteTests" name="test_08" time="32.15"/>
-  <testcase classname="ClienteTests" name="test_09" time="31.25"/>
-  <testcase classname="ClienteTests" name="test_10" time="31.119"/>
-  <testcase classname="ClienteTests" name="test_11" time="28.112"/>
-  <testcase classname="ClienteTests" name="test_12" time="30.72"/>
-  <testcase classname="ClienteTests" name="test_13" time="29.165"/>
-  <testcase classname="ClienteTests" name="test_14" time="30.143"/>
-  <testcase classname="ClienteTests" name="test_15" time="31.327"/>
-  <testcase classname="ClienteTests" name="test_16" time="28.819"/>
-  <testcase classname="ClienteTests" name="test_17" time="28.646"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_04" time="20.612"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_05" time="23.193"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_06" time="22.431"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_07" time="22.193"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_08" time="23.044"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_09" time="22.266"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_10" time="23.1"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_12" time="21.825"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_13" time="21.37"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_14" time="20.524"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_15" time="20.954"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_16" time="20.598"/>
+  <testcase classname="ClienteTestsPhantomjs" name="test_17" time="21.037"/>
 </testsuite>

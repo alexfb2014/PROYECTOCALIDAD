@@ -9,19 +9,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author ANDERSSON
- */
 public class FacturaTest {
     
     WebDriver driver;
@@ -77,7 +66,7 @@ public class FacturaTest {
         factura.ClickBtnCrearFactura();
         sleep.SleepSeconds(2);
         Assert.assertTrue(driver.findElement(By.cssSelector("body > header > div"))
-                .getText().contains("Error: La factura no puede no tener lineas"));
+                .getText().contains("Error: La factura debe tener minimo un producto"));
     }
     
      @Test
